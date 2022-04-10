@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<service>
+  <!-- 该服务的唯一标识 -->
+  <id>jimureport-example-1.4.2</id>
+  <!-- 注册为系统服务的名称 -->
+   <name>jimureport-example-1.4.2</name>
+ <!-- 对服务的描述 -->
+    <description>jimureport-example-1.4.2</description>
+   <!-- 将java程序添加到系统服务 -->
+  <executable>java</executable>
+   <!-- 执行的参数 -->
+   <arguments>-jar jimureport-example-1.4.2.jar </arguments>
+   <!-- 日志模式 -->
+   <logmode>rotate</logmode>
+ </service>
