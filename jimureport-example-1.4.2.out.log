@@ -1,0 +1,55 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.0)
+
+2022-04-02 15:24:15.598  INFO 12116 --- [           main] org.jeecg.modules.JimuReportApplication  : Starting JimuReportApplication v1.4.2 using Java 1.8.0_171 on DESKTOP-2O6EL8F with PID 12116 (D:\Work\jimureport-quickstart-1.4.2\jimureport-example-1.4.2.jar started by DESKTOP-2O6EL8F$ in D:\Work\jimureport-quickstart-1.4.2)
+2022-04-02 15:24:15.602  INFO 12116 --- [           main] org.jeecg.modules.JimuReportApplication  : No active profile set, falling back to default profiles: default
+2022-04-02 15:24:17.788  INFO 12116 --- [           main] o.j.m.auto.MinidaoAutoConfiguration      :  ******************* init miniDao config [ begin ] *********************** 
+2022-04-02 15:24:17.788  INFO 12116 --- [           main] o.j.m.auto.MinidaoAutoConfiguration      :  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*
+2022-04-02 15:24:17.789  INFO 12116 --- [           main] o.j.m.auto.MinidaoAutoConfiguration      :  *******************  init miniDao config  [ end ] *********************** 
+2022-04-02 15:24:17.865  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2022-04-02 15:24:17.866  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2022-04-02 15:24:17.866  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2022-04-02 15:24:17.866  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2022-04-02 15:24:17.867  INFO 12116 --- [           main] o.j.m.f.MiniDaoClassPathMapperScanner    : register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2022-04-02 15:24:19.338  INFO 12116 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-04-02 15:24:19.363  INFO 12116 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-02 15:24:19.363  INFO 12116 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-04-02 15:24:19.568  INFO 12116 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-02 15:24:19.568  INFO 12116 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3860 ms
+2022-04-02 15:24:20.088  INFO 12116 --- [           main] o.j.m.j.config.JimuReportConfiguration   :  --- Init JimuReport Config --- 
+2022-04-02 15:24:20.537  INFO 12116 --- [           main] o.j.m.j.config.JmReportExecutorConfig    : ---创建线程池---
+2022-04-02 15:24:21.217  INFO 12116 --- [           main] o.j.m.j.config.JimuReportConfiguration   : --- Init JimuReport Config - ResourceLocations ---: /opt/upload
+2022-04-02 15:24:21.217  INFO 12116 --- [           main] o.j.m.j.config.JimuReportConfiguration   : --- Init JimuReport Config - ResourceLocations ---: /opt/webapp
+2022-04-02 15:24:21.217  INFO 12116 --- [           main] o.j.m.j.config.JimuReportConfiguration   : --- Init JimuReport Config - ResourceLocations ---: classpath:/static/
+2022-04-02 15:24:21.895  INFO 12116 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-04-02 15:24:21.917  INFO 12116 --- [           main] org.jeecg.modules.JimuReportApplication  : Started JimuReportApplication in 7.31 seconds (JVM running for 8.123)
+2022-04-02 15:24:21.918  INFO 12116 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-04-02 15:24:21.922  INFO 12116 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+
+----------------------------------------------------------
+	Application JimuReport Demo is running! Access URL:
+	Local: 		http://localhost:8085/jmreport/list
+	----------------------------------------------------------2022-04-02 15:24:34.422  INFO 12116 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-02 15:24:34.422  INFO 12116 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-02 15:24:34.423  INFO 12116 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-02 15:24:34.525  INFO 12116 --- [nio-8085-exec-1] o.jeecg.modules.jmreport.desreport.a.a   : freemarker customPrePath: 
+2022-04-02 15:24:35.512  INFO 12116 --- [nio-8085-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-02 15:24:36.647  INFO 12116 --- [nio-8085-exec-3] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2022-04-02 15:24:36.786  INFO 12116 --- [nio-8085-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-02 15:24:36.889  INFO 12116 --- [nio-8085-exec-3] o.j.minidao.aop.MiniDaoHandler           : page countsql===> SELECT count(0) FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template
+2022-04-02 15:24:37.338  INFO 12116 --- [nio-8085-exec-4] o.j.minidao.aop.MiniDaoHandler           : page countsql===> SELECT count(0) FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template
+2022-04-02 15:24:37.401  INFO 12116 --- [nio-8085-exec-3] o.j.minidao.aop.MiniDaoHandler           : page executeSql===> SELECT TOP 10 ID, NAME, CODE, TYPE, template FROM (SELECT ROW_NUMBER() OVER (ORDER BY ROW_ALIAS_1 DESC) PAGE_ROW_NUMBER, ID, NAME, CODE, TYPE, template FROM (SELECT jr.ID, jr.NAME, jr.CODE, jr.TYPE, jr.template, jr.create_time AS ROW_ALIAS_1 FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template) AS PAGE_TABLE_ALIAS) AS PAGE_TABLE_ALIAS WHERE PAGE_ROW_NUMBER > 0 ORDER BY PAGE_ROW_NUMBER
+2022-04-02 15:24:37.876  INFO 12116 --- [nio-8085-exec-4] o.j.minidao.aop.MiniDaoHandler           : page executeSql===> SELECT TOP 10 ID, NAME, CODE, TYPE, template FROM (SELECT ROW_NUMBER() OVER (ORDER BY ROW_ALIAS_1 DESC) PAGE_ROW_NUMBER, ID, NAME, CODE, TYPE, template FROM (SELECT jr.ID, jr.NAME, jr.CODE, jr.TYPE, jr.template, jr.create_time AS ROW_ALIAS_1 FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template) AS PAGE_TABLE_ALIAS) AS PAGE_TABLE_ALIAS WHERE PAGE_ROW_NUMBER > 0 ORDER BY PAGE_ROW_NUMBER
+2022-04-02 15:24:40.556  INFO 12116 --- [nio-8085-exec-5] o.j.minidao.aop.MiniDaoHandler           : page countsql===> SELECT count(0) FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template
+2022-04-02 15:24:41.129  INFO 12116 --- [nio-8085-exec-5] o.j.minidao.aop.MiniDaoHandler           : page executeSql===> SELECT TOP 10 ID, NAME, CODE, TYPE, template FROM (SELECT ROW_NUMBER() OVER (ORDER BY ROW_ALIAS_1 DESC) PAGE_ROW_NUMBER, ID, NAME, CODE, TYPE, template FROM (SELECT jr.ID, jr.NAME, jr.CODE, jr.TYPE, jr.template, jr.create_time AS ROW_ALIAS_1 FROM jimu_report jr WHERE 1 = 1 AND jr.TYPE = :jimuReport.type AND jr.DEL_FLAG = :jimuReport.delFlag AND jr.TEMPLATE = :jimuReport.template) AS PAGE_TABLE_ALIAS) AS PAGE_TABLE_ALIAS WHERE PAGE_ROW_NUMBER > 0 ORDER BY PAGE_ROW_NUMBER

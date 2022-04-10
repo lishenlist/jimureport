@@ -1,0 +1,45 @@
+2022-04-02 15:23:49,157 DEBUG - Starting WinSW in console mode
+2022-04-02 15:23:50,407 DEBUG - Starting WinSW in console mode
+2022-04-02 15:23:50,431 INFO  - Installing service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 15:23:50,452 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' was installed successfully.
+2022-04-02 15:24:06,821 DEBUG - Starting WinSW in console mode
+2022-04-02 15:24:06,844 FATAL - Unhandled exception
+System.Exception: Unknown command: stasrt
+   在 WinSW.Program.Run(String[] argsArray, IServiceConfig config)
+   在 WinSW.Program.Main(String[] args)
+2022-04-02 15:24:11,905 DEBUG - Starting WinSW in console mode
+2022-04-02 15:24:13,155 DEBUG - Starting WinSW in console mode
+2022-04-02 15:24:13,313 INFO  - Starting service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 15:24:13,476 DEBUG - Starting WinSW in service mode
+2022-04-02 15:24:13,499 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' started successfully.
+2022-04-02 15:24:13,511 INFO  - Starting java -jar jimureport-example-1.4.2.jar 
+2022-04-02 15:24:13,739 INFO  - Started process 12116
+2022-04-02 15:24:13,744 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.SizeBasedRollingLogAppender
+2022-04-02 15:25:18,324 DEBUG - Starting WinSW in console mode
+2022-04-02 15:25:19,595 DEBUG - Starting WinSW in console mode
+2022-04-02 15:25:19,619 INFO  - Stopping service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 15:25:19,627 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' stopped successfully.
+2022-04-02 15:25:19,630 INFO  - Stopping jimureport-example-1.4.2
+2022-04-02 15:25:19,631 DEBUG - ProcessKill 12116
+2022-04-02 15:25:19,634 DEBUG - Stopping process 12116...
+2022-04-02 15:25:20,015 DEBUG - Process 12116 canceled with code 130.
+2022-04-02 15:25:20,030 INFO  - Finished jimureport-example-1.4.2
+2022-04-02 17:05:50,728 DEBUG - Starting WinSW in console mode
+2022-04-02 17:05:51,980 DEBUG - Starting WinSW in console mode
+2022-04-02 17:05:52,004 INFO  - Installing service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 17:05:52,009 ERROR - A service with ID 'jimureport-example-1.4.2' already exists.
+2022-04-02 17:05:52,010 FATAL - Failed to install the service. 指定的服务已存在。
+2022-04-02 17:07:33,680 DEBUG - Starting WinSW in console mode
+2022-04-02 17:07:34,949 DEBUG - Starting WinSW in console mode
+2022-04-02 17:07:34,971 INFO  - Stopping service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 17:07:34,984 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' has already stopped.
+2022-04-02 17:07:43,061 DEBUG - Starting WinSW in console mode
+2022-04-02 17:07:44,313 DEBUG - Starting WinSW in console mode
+2022-04-02 17:07:44,338 INFO  - Uninstalling service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 17:07:44,344 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' was uninstalled successfully.
+2022-04-02 19:29:01,696 DEBUG - Starting WinSW in console mode
+2022-04-02 19:29:03,010 DEBUG - Starting WinSW in console mode
+2022-04-02 19:29:03,033 INFO  - Installing service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)'...
+2022-04-02 19:29:03,049 INFO  - Service 'jimureport-example-1.4.2 (jimureport-example-1.4.2)' was installed successfully.
+2022-04-06 09:41:42,380 DEBUG - Starting WinSW in console mode
+2022-04-06 09:42:56,285 DEBUG - Starting WinSW in console mode
